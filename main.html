@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/pngFile/weblogo.png">
+    <style>
+        body {
+            margin: auto;
+            font-family: 'Poppins', sans-serif;
+            background: #222831;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #EEEEEE;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container .wallpaper {
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px 10px 0 0;
+            background-image: url('./assets/pngFile/wallpaper.gif');
+            background-size: cover; 
+            background-position: center;
+           
+        }
+
+        
+
+        .profile {
+            margin: 0 auto;
+            height: fit-content;
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+        }
+        
+
+        .profile-container img {
+            width: 150px;
+            height: auto;
+            overflow: hidden;
+            border-radius: 100%;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #393E46;
+            
+        }
+
+        .profile-identity {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .profile-identity h3 {
+            margin: 0;
+            font-size: 24px;
+            color: #393E46;
+        }
+
+        .profile-identity p {
+            margin: 0;
+            font-size: 18px;
+            color: #393E46;
+        }
+
+        .profile-identity .profile-socialmedia {
+            display: flex;
+            gap: 5px;
+        }
+
+        .profile-identity .profile-socialmedia img {
+            width: 30px;
+            height: auto;
+        }
+        .description {
+            padding: 0 20px 20px 20px;
+            font-size: 18px;
+            color: #393E46;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Audio Web -->
+    <audio  preload="auto" autoplay loop >
+        <source src="./assets/audio/audio.mp3">
+    </audio>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="wallpaper">
+        </div>
+        <div class="profile">
+            <div class="profile-container">
+                <img src="./assets/pngFile/profilepicture.png" alt="">
+            </div>
+            <div class="profile-identity">
+                <h3>I WAYAN SATYA WIDHYA PUTRA PRATAMA</h3>
+                <p>Mahasiswa di Universitas Tanjungpura</p>
+                <div class="profile-socialmedia">
+                    <a href="https://www.instagram.com/wynprtm/" target="_blank"><img src="./assets/icons/instagram.svg" alt=""></a>
+                    <a href="https://twitter.com/wynprtmm" target="_blank"><img src="./assets/icons/twitter.svg" alt=""></a>
+                    <a href="https://github.com/wayanpratama38" target="_blank"><img src="./assets/icons/github.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <p style="text-align: justify;">
+                Nama saya I Wayan Satya Widhya Putra Pratama, saya adalah mahasiswa di Universitas Tanjungpura. Saya lahir di Pontianak, Kalimantan Barat pada tanggal 19 Mei 2004. Saya adalah anak pertama dari dua bersaudara. Saya memiliki hobi bermain game RPG dan bermain musik. Saya memiliki cita-cita menjadi seorang yang bekerja pada software house.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
